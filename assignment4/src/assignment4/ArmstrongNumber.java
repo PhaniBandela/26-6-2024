@@ -4,7 +4,7 @@ public class ArmstrongNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n=153,count=0,temp=n,sum=0,m=0;
+		int n=1634,count=0,temp=n,sum=0,m=0;
 		while(n>0) {
 			n/=10;
 			count++;
