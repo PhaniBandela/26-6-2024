@@ -17,6 +17,7 @@ public class NeonNumber {
 			System.out.println("neon");
 		else
 			System.out.println("not");
+		
 	}
 
 }
