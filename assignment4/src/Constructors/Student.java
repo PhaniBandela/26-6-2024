@@ -9,6 +9,7 @@ public class Student {
 	private String name;
 	private int age;
 	private double GPA;
+	int a;
 	
 	static Student obj1=null;
 	static Student obj2=null;
