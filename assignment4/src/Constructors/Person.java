@@ -3,12 +3,13 @@ package Constructors;
 constructor that takes in a name and age as parameters and initializes the fields.
 Also, create a method called introduce that prints out a message introducing the
 person with their name and age.*/
-public class quetion1 {
+public class Person {
 	private String name;
 	private int age;
-	static quetion1 obj=null;
+	static Person obj=null;
 	
-	quetion1(String name,int age){
+	//constructor
+	Person(String name,int age){
 		this.name=name;
 		this.age=age;
 	}
@@ -18,7 +19,7 @@ public class quetion1 {
 	}
 	
 	public static void main(String[] args) {
-		obj=new quetion1("A",25);
+		obj=new Person("A",25);
 		introduce();
 	}
 }

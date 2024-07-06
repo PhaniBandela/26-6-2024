@@ -16,15 +16,17 @@ public class classinsideclass {
 		System.out.println("Static Block");
 		companyname="TCS";
 	}
+	
 	//static method
 	public static void display1() {
 		System.out.println("Static Method");
 	}
+	
 	//instance method
 	public void display2() {
 		System.out.println("Instance Method");
-		
 	}
+	
 	//pre-defined main method
 	public static void main(String[] args) {
 		
@@ -54,7 +56,9 @@ public class classinsideclass {
 }
 //out side class
  class Outsideclass{
+	 
 	public static void outside() {
+		
 		System.out.println("outside class");
 		
 		//calling instance variable
