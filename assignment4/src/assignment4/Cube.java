@@ -7,7 +7,7 @@ public class Cube {
 		int a=2,sum=0;
 		for(int i=1;i<=a;i++) {
 			sum=i*i*i;
-			System.out.println("cube is:"+sum);
+			System.out.println("cube is: "+sum);
 		}
 		
 	}
