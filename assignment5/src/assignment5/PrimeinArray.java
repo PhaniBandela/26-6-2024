@@ -20,7 +20,6 @@ public class PrimeinArray {
 				if(count==2 && a<n ) {
 						arr[a]=i;
 						System.out.print(arr[a++]+" ");
-//						a++;
 				}
 			}
 		}
