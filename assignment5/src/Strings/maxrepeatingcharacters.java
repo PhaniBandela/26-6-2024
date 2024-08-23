@@ -5,11 +5,11 @@ public class maxrepeatingcharacters {
 	
 	public static void main(String[] args) {
 		String s="naabcdefhedef";
-		int arr[]=new int[1255];
+		int arr[]=new int[125];
 		
 		for(char i:s.toCharArray()) {
 			arr[i]++;
-			System.out.println(arr[i]);
+//			System.out.println(arr[i]);
 		}
 		
 		int count=0;
